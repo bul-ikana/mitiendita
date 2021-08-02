@@ -6,6 +6,7 @@ const products = [
     image2: 'product2.jpg',
     image3: 'product3.jpg',
     image4: 'product4.jpg',
+    description: 'Any description'
   },
   {
     cost: "12345",
