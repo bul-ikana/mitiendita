@@ -17,7 +17,7 @@
     <div class="single-product-area section-padding-100 clearfix">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-lg-7">
+                <div class="col-12 offset-lg-1 col-lg-5">
                     <div class="single_product_thumb">
                         <div id="product_details_slider" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -71,7 +71,7 @@
 </template>
 
 <template id="storepage">
-    <div class="amado_product_area section-padding-0-100">
+    <div class="amado_product_area section-padding-100">
         <div class="container-fluid">
             <div class="row">
                 <productcard 
@@ -87,7 +87,7 @@
 </template>
 
 <template id="productcard">
-    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+    <div class="offset-xl-1 col-12 col-sm-6 col-md-12 col-xl-5">
         <div class="single-product-wrapper">
             <router-link :to="'/products/' + index" exact>
                 <div class="product-img">
@@ -126,7 +126,9 @@
                     <i class="fa fa-close" aria-hidden="true"></i>
                 </div>
                 <div class="logo">
-                    <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                    <router-link to="/" exact>
+                        <img src="img/core-img/logo.png" alt="">
+                    </router-link>
                 </div>
                 <h2>NOS VAMOS!</h2>
                 <hr>

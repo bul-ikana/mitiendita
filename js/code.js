@@ -1,68 +1,30 @@
 const products = [
   {
-    cost: "123",
-    name: "test 1",
-    image1: 'product1.jpg',
-    image2: 'product2.jpg',
-    image3: 'product3.jpg',
-    image4: 'product4.jpg',
-    description: 'Any description'
+    cost: "150",
+    name: "Pit - juego de mesa",
+    image1: 'pit1.jpg',
+    image2: 'pit2.jpg',
+    image3: 'pit3.jpg',
+    image4: 'pit4.jpg',
+    description: "Juego de mesa marca Hasbro. Excelentes condiciones. Incluye estuche con campana, 74 cartas e instructivo."
   },
   {
-    cost: "12345",
-    name: "test 2",
-    image1: 'product2.jpg',
-    image2: 'product3.jpg',
-    image3: 'product4.jpg',
-    image4: 'product5.jpg',
+    cost: "900",
+    name: "Super Mario Odyssey",
+    image1: 'mo1.jpg',
+    image2: 'mo2.jpg',
+    image3: 'mo3.jpg',
+    image4: 'mo4.jpg',
+    description: "Super Mario Odyssey para Nintendo Switch. Nuevo y sellado."
   },
   {
-    cost: "123",
-    name: "test 1",
-    image1: 'product1.jpg',
-    image2: 'product2.jpg',
-    image3: 'product3.jpg',
-    image4: 'product4.jpg',
-  },
-  {
-    cost: "12345",
-    name: "test 2",
-    image1: 'product2.jpg',
-    image2: 'product3.jpg',
-    image3: 'product4.jpg',
-    image4: 'product5.jpg',
-  },
-  {
-    cost: "123",
-    name: "test 1",
-    image1: 'product1.jpg',
-    image2: 'product2.jpg',
-    image3: 'product3.jpg',
-    image4: 'product4.jpg',
-  },
-  {
-    cost: "12345",
-    name: "test 2",
-    image1: 'product2.jpg',
-    image2: 'product3.jpg',
-    image3: 'product4.jpg',
-    image4: 'product5.jpg',
-  },
-  {
-    cost: "123",
-    name: "test 1",
-    image1: 'product1.jpg',
-    image2: 'product2.jpg',
-    image3: 'product3.jpg',
-    image4: 'product4.jpg',
-  },
-  {
-    cost: "12345",
-    name: "test 2",
-    image1: 'product2.jpg',
-    image2: 'product3.jpg',
-    image3: 'product4.jpg',
-    image4: 'product5.jpg',
+    cost: "300",
+    name: "Bocina bluetooth a prueba de agua",
+    image1: 'bocina1.jpg',
+    image2: 'bocina2.jpg',
+    image3: 'bocina3.jpg',
+    image4: 'bocina4.jpg',
+    description: "Bocina Verbatim a prueba de agua. Muy poco uso. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. "
   },
 ]
 
@@ -100,6 +62,9 @@ const productcard = Vue.component('productcard', {
 //                   //
 
 const router = new VueRouter ({
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  },
   routes: [
     {
       path: '/',
