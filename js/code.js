@@ -12,14 +12,26 @@ const products = [
     ml: "https://articulo.mercadolibre.com.mx/MLM-960802691-juego-de-mesa-pit-_JM"
   },
   {
-    cost: "900",
-    name: "Super Mario Odyssey",
-    image1: 'mo1.jpg',
-    image2: 'mo2.jpg',
-    image3: 'mo3.jpg',
-    image4: 'mo4.jpg',
-    description: "Super Mario Odyssey para Nintendo Switch.",
-    estado: "Nuevo y sellado.",
+    cost: "3800",
+    name: "Scooter eléctrico",
+    image1: 'scooter1.jpeg',
+    image2: 'scooter2.jpeg',
+    image3: 'scooter3.jpeg',
+    image4: 'scooter4.jpeg',
+    description: 'Scooter electrico plegable para adulto. 3 velocidades. Luz led frontal. Cuenta con freno trasero y freno manual. 23 kms de autonomía. Incluye cargador.',
+    estado: "Poco uso.",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "1200",
+    name: "Scanner portatil IRIScan",
+    image1: 'scanner1.jpg',
+    image2: 'scanner2.jpg',
+    image3: 'scanner3.jpg',
+    image4: 'scanner4.jpg',
+    description: "Scanner portatil IRIScan Book 3. Incluye accesorios.",
+    estado: "Usado en su empaque.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -30,10 +42,10 @@ const products = [
     image2: 'bocina2.jpg',
     image3: 'bocina3.jpg',
     image4: 'bocina4.jpg',
-    description: "Bocina Verbatim a prueba de agua. Muy poco uso. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. ",
+    description: "Bocina Verbatim a prueba de agua. Excelente para uso en la playa, alberca o en la regadera. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. ",
     estado: "Nueva en su empaque.",
     entrega: "Inmediata",
-    ml: ""
+    ml: "https://articulo.mercadolibre.com.mx/MLM-960810092-bocina-bluetooth-a-prueba-de-agua-_JM"
   },
   {
     cost: "60",
@@ -84,6 +96,30 @@ const products = [
     ml: ""
   },
   {
+    cost: "200 c/u",
+    name: "Focos Smart RGB",
+    image1: 'focos1.jpg',
+    image2: 'focos2.jpg',
+    image3: 'focos3.jpg',
+    image4: 'focos4.jpg',
+    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    estado: "Muy poco uso.",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "900",
+    name: "Super Mario Odyssey",
+    image1: 'mo1.jpg',
+    image2: 'mo2.jpg',
+    image3: 'mo3.jpg',
+    image4: 'mo4.jpg',
+    description: "Super Mario Odyssey para Nintendo Switch.",
+    estado: "Nuevo y sellado.",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
     cost: "600",
     name: "Paper Mario: The Origami King",
     image1: 'pm1.jpg',
@@ -104,18 +140,6 @@ const products = [
     image4: 'smb4.jpg',
     description: "New Super Mario Bros. U Deluxe para Nintendo Switch.",
     estado: "Nuevo y sellado.",
-    entrega: "Inmediata",
-    ml: ""
-  },
-  {
-    cost: "1200",
-    name: "Scanner portatil IRIScan",
-    image1: 'scanner1.jpg',
-    image2: 'scanner2.jpg',
-    image3: 'scanner3.jpg',
-    image4: 'scanner4.jpg',
-    description: "Scanner portatil IRIScan Book 3. Incluye accesorios.",
-    estado: "Usado en su empaque.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -144,14 +168,14 @@ const products = [
     ml: ""
   },
   {
-    cost: "200 c/u",
-    name: "Focos Smart RGB",
-    image1: 'focos1.jpg',
-    image2: 'focos2.jpg',
-    image3: 'focos3.jpg',
-    image4: 'focos4.jpg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso.",
+    cost: "100",
+    name: "AAA Lucha Libre Héroes del Ring",
+    image1: 'aaa1.jpeg',
+    image2: 'aaa2.jpeg',
+    image3: 'aaa3.jpeg',
+    image4: 'aaa4.jpeg',
+    description: "AAA Lucha Libre Héroes del Ring para Playstation 3.",
+    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -164,18 +188,6 @@ const products = [
     image4: 'canon4.jpeg',
     description: "Cámara Canon PowerShotSD 780 IS, 12.1 megapixeles. Incluye accesorios.",
     estado: "Usada.",
-    entrega: "Inmediata",
-    ml: ""
-  },
-  {
-    cost: "100",
-    name: "AAA Lucha Libre Héroes del Ring",
-    image1: 'aaa1.jpeg',
-    image2: 'aaa2.jpeg',
-    image3: 'aaa3.jpeg',
-    image4: 'aaa4.jpeg',
-    description: "AAA Lucha Libre Héroes del Ring para Playstation 3.",
-    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -269,6 +281,18 @@ const products = [
     image4: 'bl4.jpeg',
     description: "Botella de agua de aluminio. ",
     estado: "Nueva",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "250",
+    name: "Base para laptop",
+    image1: 'base1.jpeg',
+    image2: 'base2.jpeg',
+    image3: 'base3.jpeg',
+    image4: 'base4.jpeg',
+    description: 'Base para laptop de aluminio marca Amazon Basics. Compatible con laptops de hasta 15". Dependiendo del centro de gravedad de la laptop, puede funcionar con laptops de hasta 15.6" como las que se miestra en las fotos.',
+    estado: "Usada en muy bien estado.",
     entrega: "Inmediata",
     ml: ""
   },
