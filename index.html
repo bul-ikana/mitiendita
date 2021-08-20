@@ -62,7 +62,7 @@
                         </div>
 
                             <button name="addtocart" value="5" class="btn amado-btn">Add to cart</button>
-                            <button name="addtocart" value="5" class="btn amado-btn">MercadoLibre</button>
+                            <button v-if="products[$route.params.id].ml" name="addtocart" value="5" class="btn amado-btn">MercadoLibre</button>
                     </div>
                 </div>
             </div>

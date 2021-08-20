@@ -9,6 +9,7 @@ const products = [
     description: "Juego de mesa marca Hasbro. Excelentes condiciones. Incluye estuche con campana, 74 cartas e instructivo.",
     estado: "Nuevo sin empaque",
     entrega: "inmediata",
+    ml: "asdf"
   },
   {
     cost: "900",
@@ -20,6 +21,7 @@ const products = [
     description: "Super Mario Odyssey para Nintendo Switch.",
     estado: "Nuevo y sellado",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "300",
@@ -49,6 +51,7 @@ const products = [
     description: "Plancha Continental.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "700",
@@ -60,6 +63,7 @@ const products = [
     description: "Plancha Oster, incluye accesorios.",
     estado: "Nueva",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "250",
@@ -71,6 +75,7 @@ const products = [
     description: "Cobertor ultrasuave concord con diseño de flores.",
     estado: "Usado, se entrega recien salido de tintoreria",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "600",
@@ -82,6 +87,7 @@ const products = [
     description: "Paper Mario: The Origami King para Nintendo Switch.",
     estado: "Nuevo  y sellado",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "750",
@@ -93,6 +99,7 @@ const products = [
     description: "New Super Mario Bros. U Deluxe para Nintendo Switch.",
     estado: "Nuevo  y sellado",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "1200",
@@ -104,6 +111,7 @@ const products = [
     description: "Scanner portatil IRIScan Book 3.",
     estado: "Usado",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "350",
@@ -115,6 +123,7 @@ const products = [
     description: "The Legend Of Zelda: Triforce Heroes para Nintendo 3DS.",
     estado: "Usado",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "200",
@@ -126,6 +135,7 @@ const products = [
     description: "Scribblenauts Unmasked para Nintendo 3DS",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "200 c/u",
@@ -137,6 +147,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "1200",
@@ -148,6 +159,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -159,6 +171,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -170,6 +183,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -181,6 +195,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "200",
@@ -190,6 +205,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -200,6 +216,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -211,6 +228,7 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "150",
@@ -222,6 +240,55 @@ const products = [
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "100",
+    name: "Botella de agua ",
+    image1: 'b1.jpeg',
+    image2: 'b2.jpeg',
+    image3: 'b3.jpeg',
+    image4: 'b4.jpeg',
+    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    estado: "Muy poco uso",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "100",
+    name: "Botella de agua Latchel",
+    image1: 'bl1.jpeg',
+    image2: 'bl2.jpeg',
+    image3: 'bl3.jpeg',
+    image4: 'bl4.jpeg',
+    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    estado: "Muy poco uso",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "150",
+    name: "Perchero",
+    image1: 'xcn1.jpeg',
+    image2: 'xcn2.jpeg',
+    image3: 'xcn3.jpeg',
+    image4: 'xcn4.jpeg',
+    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    estado: "Muy poco uso",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "150",
+    name: "Zapatera",
+    image1: 'xcn1.jpeg',
+    image2: 'xcn2.jpeg',
+    image3: 'xcn3.jpeg',
+    image4: 'xcn4.jpeg',
+    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    estado: "Muy poco uso",
+    entrega: "Inmediata",
+    ml: ""
   },
 
 ]
