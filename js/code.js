@@ -7,9 +7,9 @@ const products = [
     image3: 'pit3.jpg',
     image4: 'pit4.jpg',
     description: "Juego de mesa marca Hasbro. Excelentes condiciones. Incluye estuche con campana, 74 cartas e instructivo.",
-    estado: "Nuevo sin empaque",
+    estado: "Nuevo sin empaque.",
     entrega: "inmediata",
-    ml: "asdf"
+    ml: "https://articulo.mercadolibre.com.mx/MLM-960802691-juego-de-mesa-pit-_JM"
   },
   {
     cost: "900",
@@ -19,7 +19,7 @@ const products = [
     image3: 'mo3.jpg',
     image4: 'mo4.jpg',
     description: "Super Mario Odyssey para Nintendo Switch.",
-    estado: "Nuevo y sellado",
+    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -30,16 +30,22 @@ const products = [
     image2: 'bocina2.jpg',
     image3: 'bocina3.jpg',
     image4: 'bocina4.jpg',
-    description: "Bocina Verbatim a prueba de agua. Muy poco uso. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. "
+    description: "Bocina Verbatim a prueba de agua. Muy poco uso. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. ",
+    estado: "Nueva en su empaque.",
+    entrega: "Inmediata",
+    ml: ""
   },
   {
-    cost: "100",
+    cost: "60",
     name: "Garrafón epura 20l",
     image1: 'garrafon1.jpg',
     image2: 'garrafon2.jpg',
     image3: 'garrafon3.jpg',
     image4: 'garrafon4.jpg',
-    description: "Garrafón epura 20 litros. Imagenes de referencia, se entregará el último que nos deje el camión antes de la venta."
+    description: "Garrafón epura 20 litros. Imagenes de referencia, se entregará el último que nos deje el camión antes de la venta.",
+    estado: "Usado. El camión repartidor lo recibe sin problemas.",
+    entrega: "Inmediata",
+    ml: ""
   },
   {
     cost: "100",
@@ -49,7 +55,7 @@ const products = [
     image3: 'plancha3.jpg',
     image4: 'plancha4.jpg',
     description: "Plancha Continental.",
-    estado: "Muy poco uso",
+    estado: "Se uso tres veces a lo mucho.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -61,7 +67,7 @@ const products = [
     image3: 'oster3.jpg',
     image4: 'oster4.jpg',
     description: "Plancha Oster, incluye accesorios.",
-    estado: "Nueva",
+    estado: "Nueva en su empaque",
     entrega: "Inmediata",
     ml: ""
   },
@@ -85,7 +91,7 @@ const products = [
     image3: 'pm3.jpg',
     image4: 'pm4.jpg',
     description: "Paper Mario: The Origami King para Nintendo Switch.",
-    estado: "Nuevo  y sellado",
+    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -97,7 +103,7 @@ const products = [
     image3: 'smb3.jpg',
     image4: 'smb4.jpg',
     description: "New Super Mario Bros. U Deluxe para Nintendo Switch.",
-    estado: "Nuevo  y sellado",
+    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -108,8 +114,8 @@ const products = [
     image2: 'scanner2.jpg',
     image3: 'scanner3.jpg',
     image4: 'scanner4.jpg',
-    description: "Scanner portatil IRIScan Book 3.",
-    estado: "Usado",
+    description: "Scanner portatil IRIScan Book 3. Incluye accesorios.",
+    estado: "Usado en su empaque.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -121,7 +127,7 @@ const products = [
     image3: 'zelda3.jpg',
     image4: 'zelda4.jpg',
     description: "The Legend Of Zelda: Triforce Heroes para Nintendo 3DS.",
-    estado: "Usado",
+    estado: "Usado.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -133,7 +139,7 @@ const products = [
     image3: 'su3.jpg',
     image4: 'su4.jpg',
     description: "Scribblenauts Unmasked para Nintendo 3DS",
-    estado: "Muy poco uso",
+    estado: "Muy poco uso.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -145,19 +151,19 @@ const products = [
     image3: 'focos3.jpg',
     image4: 'focos4.jpg',
     description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    estado: "Muy poco uso.",
     entrega: "Inmediata",
     ml: ""
   },
   {
-    cost: "1200",
-    name: "Cámara Canon",
+    cost: "1000",
+    name: "Canon PowerShot",
     image1: 'canon1.jpeg',
     image2: 'canon2.jpeg',
     image3: 'canon3.jpeg',
     image4: 'canon4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Cámara Canon PowerShotSD 780 IS, 12.1 megapixeles. Incluye accesorios.",
+    estado: "Usada.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -168,20 +174,20 @@ const products = [
     image2: 'aaa2.jpeg',
     image3: 'aaa3.jpeg',
     image4: 'aaa4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "AAA Lucha Libre Héroes del Ring para Playstation 3.",
+    estado: "Nuevo y sellado.",
     entrega: "Inmediata",
     ml: ""
   },
   {
-    cost: "100",
+    cost: "80",
     name: "Powerbank",
     image1: 'pb1.jpeg',
     image2: 'pb2.jpeg',
     image3: 'pb3.jpeg',
     image4: 'pb4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Powerbank Pineng 10,000 mAh. Inlcuye linterna. Carcaza maltratada, el display no funciona y solo un puerto carga.",
+    estado: "Bien madreado pero funciona.",
     entrega: "Inmediata",
     ml: ""
   },
@@ -192,7 +198,7 @@ const products = [
     image2: 'nerf2.jpeg',
     image3: 'nerf3.jpeg',
     image4: 'nerf4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+    description: "Nerf Nanofire verde, incluye paquete de 30 dardos.",
     estado: "Muy poco uso",
     entrega: "Inmediata",
     ml: ""
@@ -202,8 +208,8 @@ const products = [
     name: "Memoria RAM",
     image1: 'ram1.jpeg',
     image2: 'ram2.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Ram marca Samsung para laptop. 1GB PC3-10600 DDR3-1333MHz non-ECC Unbuffered CL9 204-Pin",
+    estado: "Usada",
     entrega: "Inmediata",
     ml: ""
   },
@@ -213,8 +219,8 @@ const products = [
     image1: 'calc1.jpeg',
     image2: 'calc2.jpeg',
     image3: 'calc3.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Calculadora científica Olivetti. Incluye modo decimal, hexadecimal, binario y octal.",
+    estado: "Usada",
     entrega: "Inmediata",
     ml: ""
   },
@@ -225,20 +231,20 @@ const products = [
     image2: 'funda2.jpeg',
     image3: 'funda3.jpeg',
     image4: 'funda4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Funda para Kindle modelo Keyboard. Luz integrada.",
+    estado: "Usada",
     entrega: "Inmediata",
     ml: ""
   },
   {
-    cost: "150",
+    cost: "200",
     name: "Casa Negra",
     image1: 'cn1.jpeg',
     image2: 'cn2.jpeg',
     image3: 'cn3.jpeg',
     image4: 'cn4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Casa Negra de Stephen King y Peter Straut.",
+    estado: "Nuevo y sellado",
     entrega: "Inmediata",
     ml: ""
   },
@@ -249,8 +255,8 @@ const products = [
     image2: 'b2.jpeg',
     image3: 'b3.jpeg',
     image4: 'b4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Botella de agua de alumino",
+    estado: "Poco uso",
     entrega: "Inmediata",
     ml: ""
   },
@@ -261,35 +267,35 @@ const products = [
     image2: 'bl2.jpeg',
     image3: 'bl3.jpeg',
     image4: 'bl4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
+    description: "Botella de agua de aluminio. ",
+    estado: "Nueva",
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "150",
-    name: "Perchero",
-    image1: 'xcn1.jpeg',
-    image2: 'xcn2.jpeg',
-    image3: 'xcn3.jpeg',
-    image4: 'xcn4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
-    entrega: "Inmediata",
-    ml: ""
-  },
-  {
-    cost: "150",
-    name: "Zapatera",
-    image1: 'xcn1.jpeg',
-    image2: 'xcn2.jpeg',
-    image3: 'xcn3.jpeg',
-    image4: 'xcn4.jpeg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "400",
+  //   name: "Perchero",
+  //   image1: 'xcn1.jpeg',
+  //   image2: 'xcn2.jpeg',
+  //   image3: 'xcn3.jpeg',
+  //   image4: 'xcn4.jpeg',
+  //   description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+  //   estado: "Muy poco uso",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
+  // {
+  //   cost: "120",
+  //   name: "Zapatera",
+  //   image1: 'xcn1.jpeg',
+  //   image2: 'xcn2.jpeg',
+  //   image3: 'xcn3.jpeg',
+  //   image4: 'xcn4.jpeg',
+  //   description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+  //   estado: "Muy poco uso",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
 
 ]
 

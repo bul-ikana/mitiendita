@@ -59,10 +59,27 @@
 
                         <div class="short_overview my-5">
                             <p>{{products[$route.params.id].description}}</p>
+                            <hr>
+                            <p>Estado: {{products[$route.params.id].estado}}</p>
+                            <p>Entrega: {{products[$route.params.id].entrega}}</p>
                         </div>
 
-                            <button name="addtocart" value="5" class="btn amado-btn">Add to cart</button>
-                            <button v-if="products[$route.params.id].ml" name="addtocart" value="5" class="btn amado-btn">MercadoLibre</button>
+
+                        <a href="https://twitter.com/messages/compose?recipient_id=53569786&ref_src=twsrc%5Etfw" data-text="Hola, me interesa!" target="_blank">
+                            <button name="addtocart" value="5" class="btn amado-btn">Me interesa</button>
+                        </a>
+
+                        <a v-if="products[$route.params.id].ml" :href="products[$route.params.id].ml" target="_blank">
+                            <button name="addtocart" value="5" class="btn amado-btn">MercadoLibre</button>
+                        </a>
+
+                        <br>
+                        <br>
+                        <br>
+                        <small>
+                            Si vives en Puebla el envío cuesta $50 y te lo enviamos por Uber Flash. También podemos entregar en Cruz del Sur. 
+                            <span v-if="products[$route.params.id].ml">Si estas en otro estado por favor revisa la publicación de mercado libre.</span>
+                        </small>
                     </div>
                 </div>
             </div>
@@ -133,8 +150,6 @@
                 <h2>NOS VAMOS!</h2>
                 <hr>
                 <p>Como ya algunos saben nos mudamos y estamos rematando muchas de nuestras cosas.</p>
-                <hr>
-                <small>Si vives en Puebla el envío cuesta $50 y te lo enviamos por Uber Flash. Si estas en otro estado por favor revisa la publicación de mercado libre que viene con cada producto.</small>
             </header>
 
             <keep-alive> 
@@ -152,6 +167,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="js/code.js"></script>
+    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 
 </html>
