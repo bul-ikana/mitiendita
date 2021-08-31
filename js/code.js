@@ -1,28 +1,76 @@
 const products = [
   {
-    cost: "150",
-    name: "Pit - juego de mesa",
-    image1: 'pit1.jpg',
-    image2: 'pit2.jpg',
-    image3: 'pit3.jpg',
-    image4: 'pit4.jpg',
-    description: "Juego de mesa marca Hasbro. Excelentes condiciones. Incluye estuche con campana, 74 cartas e instructivo.",
-    estado: "Nuevo sin empaque.",
-    entrega: "inmediata",
-    ml: "https://articulo.mercadolibre.com.mx/MLM-960802691-juego-de-mesa-pit-_JM"
-  },
-  {
-    cost: "3800",
-    name: "Scooter eléctrico",
-    image1: 'scooter1.jpeg',
-    image2: 'scooter2.jpeg',
-    image3: 'scooter3.jpeg',
-    image4: 'scooter4.jpeg',
-    description: 'Scooter electrico plegable para adulto. 3 velocidades. Luz led frontal. Cuenta con freno trasero y freno manual. 23 kms de autonomía. Incluye cargador.',
-    estado: "Poco uso.",
+    cost: "1200",
+    name: "Bolsa Michael Kors",
+    image1: 'mk1.jpeg',
+    image2: 'mk2.jpeg',
+    image3: 'mk3.jpeg',
+    image4: 'mk4.jpeg',
+    description: "Azul",
+    estado: "Poco uso",
     entrega: "Inmediata",
     ml: ""
   },
+  {
+    cost: "400",
+    name: "Perchero",
+    image1: 'per1.jpeg',
+    image2: 'per2.jpeg',
+    image3: 'per3.jpeg',
+    image4: 'per4.jpeg',
+    description: "Perchero de metal con base de marmol.",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "200",
+    name: "Zapatera",
+    image1: 'zap1.jpeg',
+    image2: 'zap2.jpeg',
+    image3: 'zap3.jpeg',
+    image4: 'zap4.jpeg',
+    description: "Zapatera de tamaño ajustable.",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "300",
+    name: "Raspberry Pi Zero",
+    image1: 'pi1.jpeg',
+    image2: 'pi2.jpeg',
+    image3: 'pi3.jpeg',
+    image4: 'pi4.jpeg',
+    description: "Raspberry Pi Zero V1.3. USB / Mini HDMI. No incluye accesorios. Se entrega en bolsa anti estática.",
+    estado: "Nueva",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  // {
+  //   cost: "150",
+  //   name: "Pit - juego de mesa",
+  //   image1: 'pit1.jpg',
+  //   image2: 'pit2.jpg',
+  //   image3: 'pit3.jpg',
+  //   image4: 'pit4.jpg',
+  //   description: "Juego de mesa marca Hasbro. Excelentes condiciones. Incluye estuche con campana, 74 cartas e instructivo.",
+  //   estado: "Nuevo sin empaque.",
+  //   entrega: "inmediata",
+  //   ml: "https://articulo.mercadolibre.com.mx/MLM-960802691-juego-de-mesa-pit-_JM"
+  // },
+  // {
+  //   cost: "3800",
+  //   name: "Scooter eléctrico",
+  //   image1: 'scooter1.jpeg',
+  //   image2: 'scooter2.jpeg',
+  //   image3: 'scooter3.jpeg',
+  //   image4: 'scooter4.jpeg',
+  //   description: 'Scooter electrico plegable para adulto. 3 velocidades. Luz led frontal. Cuenta con freno trasero y freno manual. 23 kms de autonomía. Incluye cargador.',
+  //   estado: "Poco uso.",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   {
     cost: "1200",
     name: "Scanner portatil IRIScan",
@@ -35,18 +83,18 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "300",
-    name: "Bocina bluetooth a prueba de agua",
-    image1: 'bocina1.jpg',
-    image2: 'bocina2.jpg',
-    image3: 'bocina3.jpg',
-    image4: 'bocina4.jpg',
-    description: "Bocina Verbatim a prueba de agua. Excelente para uso en la playa, alberca o en la regadera. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. ",
-    estado: "Nueva en su empaque.",
-    entrega: "Inmediata",
-    ml: "https://articulo.mercadolibre.com.mx/MLM-960810092-bocina-bluetooth-a-prueba-de-agua-_JM"
-  },
+  // {
+  //   cost: "300",
+  //   name: "Bocina bluetooth a prueba de agua",
+  //   image1: 'bocina1.jpg',
+  //   image2: 'bocina2.jpg',
+  //   image3: 'bocina3.jpg',
+  //   image4: 'bocina4.jpg',
+  //   description: "Bocina Verbatim a prueba de agua. Excelente para uso en la playa, alberca o en la regadera. Micrófono incorporado para contestar llamadas. Incluye cable, mosquetón, ventosa e instructivo. ",
+  //   estado: "Nueva en su empaque.",
+  //   entrega: "Inmediata",
+  //   ml: "https://articulo.mercadolibre.com.mx/MLM-960810092-bocina-bluetooth-a-prueba-de-agua-_JM"
+  // },
   {
     cost: "60",
     name: "Garrafón epura 20l",
@@ -72,7 +120,7 @@ const products = [
     ml: ""
   },
   {
-    cost: "700",
+    cost: "650",
     name: "Plancha Oster",
     image1: 'oster1.jpg',
     image2: 'oster2.jpg',
@@ -83,30 +131,30 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "250",
-    name: "Cobertor Concord",
-    image1: 'cobertor1.jpg',
-    image2: 'cobertor2.jpg',
-    image3: 'cobertor3.jpg',
-    image4: 'cobertor4.jpg',
-    description: "Cobertor ultrasuave concord con diseño de flores.",
-    estado: "Usado, se entrega recien salido de tintoreria",
-    entrega: "Inmediata",
-    ml: ""
-  },
-  {
-    cost: "200 c/u",
-    name: "Focos Smart RGB",
-    image1: 'focos1.jpg',
-    image2: 'focos2.jpg',
-    image3: 'focos3.jpg',
-    image4: 'focos4.jpg',
-    description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-    estado: "Muy poco uso.",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "250",
+  //   name: "Cobertor Concord",
+  //   image1: 'cobertor1.jpg',
+  //   image2: 'cobertor2.jpg',
+  //   image3: 'cobertor3.jpg',
+  //   image4: 'cobertor4.jpg',
+  //   description: "Cobertor ultrasuave concord con diseño de flores.",
+  //   estado: "Usado, se entrega recien salido de tintoreria",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
+  // {
+  //   cost: "200 c/u",
+  //   name: "Focos Smart RGB",
+  //   image1: 'focos1.jpg',
+  //   image2: 'focos2.jpg',
+  //   image3: 'focos3.jpg',
+  //   image4: 'focos4.jpg',
+  //   description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
+  //   estado: "Muy poco uso.",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   {
     cost: "900",
     name: "Super Mario Odyssey",
@@ -191,18 +239,18 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "80",
-    name: "Powerbank",
-    image1: 'pb1.jpeg',
-    image2: 'pb2.jpeg',
-    image3: 'pb3.jpeg',
-    image4: 'pb4.jpeg',
-    description: "Powerbank Pineng 10,000 mAh. Inlcuye linterna. Carcaza maltratada, el display no funciona y solo un puerto carga.",
-    estado: "Bien madreado pero funciona.",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "80",
+  //   name: "Powerbank",
+  //   image1: 'pb1.jpeg',
+  //   image2: 'pb2.jpeg',
+  //   image3: 'pb3.jpeg',
+  //   image4: 'pb4.jpeg',
+  //   description: "Powerbank Pineng 10,000 mAh. Inlcuye linterna. Carcaza maltratada, el display no funciona y solo un puerto carga.",
+  //   estado: "Bien madreado pero funciona.",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   {
     cost: "100",
     name: "Pistola Nerf con dardos",
@@ -260,30 +308,30 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "100",
-    name: "Botella de agua ",
-    image1: 'b1.jpeg',
-    image2: 'b2.jpeg',
-    image3: 'b3.jpeg',
-    image4: 'b4.jpeg',
-    description: "Botella de agua de alumino",
-    estado: "Poco uso",
-    entrega: "Inmediata",
-    ml: ""
-  },
-  {
-    cost: "100",
-    name: "Botella de agua Latchel",
-    image1: 'bl1.jpeg',
-    image2: 'bl2.jpeg',
-    image3: 'bl3.jpeg',
-    image4: 'bl4.jpeg',
-    description: "Botella de agua de aluminio. ",
-    estado: "Nueva",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "100",
+  //   name: "Botella de agua ",
+  //   image1: 'b1.jpeg',
+  //   image2: 'b2.jpeg',
+  //   image3: 'b3.jpeg',
+  //   image4: 'b4.jpeg',
+  //   description: "Botella de agua de alumino",
+  //   estado: "Poco uso",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
+  // {
+  //   cost: "100",
+  //   name: "Botella de agua Latchel",
+  //   image1: 'bl1.jpeg',
+  //   image2: 'bl2.jpeg',
+  //   image3: 'bl3.jpeg',
+  //   image4: 'bl4.jpeg',
+  //   description: "Botella de agua de aluminio. ",
+  //   estado: "Nueva",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   {
     cost: "250",
     name: "Base para laptop",
@@ -296,30 +344,6 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  // {
-  //   cost: "400",
-  //   name: "Perchero",
-  //   image1: 'xcn1.jpeg',
-  //   image2: 'xcn2.jpeg',
-  //   image3: 'xcn3.jpeg',
-  //   image4: 'xcn4.jpeg',
-  //   description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-  //   estado: "Muy poco uso",
-  //   entrega: "Inmediata",
-  //   ml: ""
-  // },
-  // {
-  //   cost: "120",
-  //   name: "Zapatera",
-  //   image1: 'xcn1.jpeg',
-  //   image2: 'xcn2.jpeg',
-  //   image3: 'xcn3.jpeg',
-  //   image4: 'xcn4.jpeg',
-  //   description: "Tres disponibles. Se controlan a través de su propia aplicación, no requieren hub. Compatible con google, alexa y siri.",
-  //   estado: "Muy poco uso",
-  //   entrega: "Inmediata",
-  //   ml: ""
-  // },
 
 ]
 
