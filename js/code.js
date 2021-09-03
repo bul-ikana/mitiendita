@@ -35,18 +35,18 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "300",
-    name: "Raspberry Pi Zero",
-    image1: 'pi1.jpeg',
-    image2: 'pi2.jpeg',
-    image3: 'pi3.jpeg',
-    image4: 'pi4.jpeg',
-    description: "Raspberry Pi Zero V1.3. USB / Mini HDMI. No incluye accesorios. Se entrega en bolsa anti estática.",
-    estado: "Nueva",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "300",
+  //   name: "Raspberry Pi Zero",
+  //   image1: 'pi1.jpeg',
+  //   image2: 'pi2.jpeg',
+  //   image3: 'pi3.jpeg',
+  //   image4: 'pi4.jpeg',
+  //   description: "Raspberry Pi Zero V1.3. USB / Mini HDMI. No incluye accesorios. Se entrega en bolsa anti estática.",
+  //   estado: "Nueva",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   // {
   //   cost: "150",
   //   name: "Pit - juego de mesa",
