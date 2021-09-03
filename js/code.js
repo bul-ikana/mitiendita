@@ -26,7 +26,7 @@ const products = [
   {
     cost: "200",
     name: "Zapatera",
-    image1: 'zap1.jpeg',ö
+    image1: 'zap1.jpeg',
     image2: 'zap2.jpeg',
     image3: 'zap3.jpeg',
     image4: 'zap4.jpeg',
