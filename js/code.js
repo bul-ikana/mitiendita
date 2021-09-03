@@ -11,22 +11,22 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "400",
-    name: "Perchero",
-    image1: 'per1.jpeg',
-    image2: 'per2.jpeg',
-    image3: 'per3.jpeg',
-    image4: 'per4.jpeg',
-    description: "Perchero de metal con base de marmol.",
-    estado: "Usada",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "400",
+  //   name: "Perchero",
+  //   image1: 'per1.jpeg',
+  //   image2: 'per2.jpeg',
+  //   image3: 'per3.jpeg',
+  //   image4: 'per4.jpeg',
+  //   description: "Perchero de metal con base de marmol.",
+  //   estado: "Usada",
+  //   entrega: "Inmediata"
+  //   ml: ""
+  // },
   {
     cost: "200",
     name: "Zapatera",
-    image1: 'zap1.jpeg',
+    image1: 'zap1.jpeg',ö
     image2: 'zap2.jpeg',
     image3: 'zap3.jpeg',
     image4: 'zap4.jpeg',
