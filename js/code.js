@@ -1,5 +1,17 @@
 const products = [
   {
+    cost: "150",
+    name: "Tostadora Proctor Silex",
+    image1: 'tost1.jpeg',
+    image2: 'tost2.jpeg',
+    image3: 'tost3.jpeg',
+    image4: 'tost4.jpeg',
+    description: "Tostadora de pan",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
     cost: "1200",
     name: "Bolsa Michael Kors",
     image1: 'mk1.jpeg',
@@ -7,6 +19,30 @@ const products = [
     image3: 'mk3.jpeg',
     image4: 'mk4.jpeg',
     description: "Azul",
+    estado: "Poco uso",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "50 c/u",
+    name: "Cables ethernet",
+    image1: 'eth1.jpeg',
+    image2: 'eth2.jpeg',
+    image3: 'eth3.jpeg',
+    image4: 'eth4.jpeg',
+    description: "cable ethernet plano 1 metro, cat 6. Cable Ethernet cat 5e 1.4 metros.",
+    estado: "Poco uso",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "250",
+    name: "Capturadora RCA",
+    image1: 'cap1.jpeg',
+    image2: 'cap2.jpeg',
+    image3: 'cap3.jpeg',
+    image4: 'cap4.jpeg',
+    description: "Capturadora USB con entradas RCA y S-Video. Captura audio y video de VHS, DVD, Videojuegos (PS1, PS2, NES, SNES, N64, GCN, XB, XB360). Incluye extensiones de USB y RCA.",
     estado: "Poco uso",
     entrega: "Inmediata",
     ml: ""
@@ -119,18 +155,18 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "650",
-    name: "Plancha Oster",
-    image1: 'oster1.jpg',
-    image2: 'oster2.jpg',
-    image3: 'oster3.jpg',
-    image4: 'oster4.jpg',
-    description: "Plancha Oster, incluye accesorios.",
-    estado: "Nueva en su empaque",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "650",
+  //   name: "Plancha Oster",
+  //   image1: 'oster1.jpg',
+  //   image2: 'oster2.jpg',
+  //   image3: 'oster3.jpg',
+  //   image4: 'oster4.jpg',
+  //   description: "Plancha Oster, incluye accesorios.",
+  //   estado: "Nueva en su empaque",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   // {
   //   cost: "250",
   //   name: "Cobertor Concord",
