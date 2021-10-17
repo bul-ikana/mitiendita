@@ -1,6 +1,42 @@
 const products = [
   {
     cost: "150",
+    name: "Raqueta Head",
+    image1: 'r21.jpeg',
+    image2: 'r22.jpeg',
+    image3: 'r23.jpeg',
+    image4: 'r24.jpeg',
+    description: "Raqueta Head. Encordado original. Overgrip Babolat.",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+    {
+    cost: "150",
+    name: "Raqueta Voit",
+    image1: 'r11.jpeg',
+    image2: 'r12.jpeg',
+    image3: 'r13.jpeg',
+    image4: 'r14.jpeg',
+    description: "Raqueta Voit. Encordado original. Overgrip Wilson.  Amortiguador Head.",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+    {
+    cost: "200",
+    name: "Cerradura de barra izquierda",
+    image1: 'cerr1.jpeg',
+    image2: 'cerr2.jpeg',
+    image3: 'cerr3.jpeg',
+    image4: 'cerr4.jpeg',
+    description: "Cerradura de barra izquierda. Incluye tres llaves originales tipo tetra, tornillos y plantilla de instalación.",
+    estado: "Usada",
+    entrega: "Inmediata",
+    ml: ""
+  },
+  {
+    cost: "150",
     name: "Tostadora Proctor Silex",
     image1: 'tost1.jpeg',
     image2: 'tost2.jpeg',
