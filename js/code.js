@@ -47,18 +47,18 @@ const products = [
     entrega: "Inmediata",
     ml: ""
   },
-  {
-    cost: "1200",
-    name: "Bolsa Michael Kors",
-    image1: 'mk1.jpeg',
-    image2: 'mk2.jpeg',
-    image3: 'mk3.jpeg',
-    image4: 'mk4.jpeg',
-    description: "Azul",
-    estado: "Poco uso",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "1200",
+  //   name: "Bolsa Michael Kors",
+  //   image1: 'mk1.jpeg',
+  //   image2: 'mk2.jpeg',
+  //   image3: 'mk3.jpeg',
+  //   image4: 'mk4.jpeg',
+  //   description: "Azul",
+  //   estado: "Poco uso",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
   {
     cost: "50 c/u",
     name: "Cables ethernet",
@@ -404,18 +404,18 @@ const products = [
   //   entrega: "Inmediata",
   //   ml: ""
   // },
-  {
-    cost: "250",
-    name: "Base para laptop",
-    image1: 'base1.jpeg',
-    image2: 'base2.jpeg',
-    image3: 'base3.jpeg',
-    image4: 'base4.jpeg',
-    description: 'Base para laptop de aluminio marca Amazon Basics. Compatible con laptops de hasta 15". Dependiendo del centro de gravedad de la laptop, puede funcionar con laptops de hasta 15.6" como las que se miestra en las fotos.',
-    estado: "Usada en muy bien estado.",
-    entrega: "Inmediata",
-    ml: ""
-  },
+  // {
+  //   cost: "250",
+  //   name: "Base para laptop",
+  //   image1: 'base1.jpeg',
+  //   image2: 'base2.jpeg',
+  //   image3: 'base3.jpeg',
+  //   image4: 'base4.jpeg',
+  //   description: 'Base para laptop de aluminio marca Amazon Basics. Compatible con laptops de hasta 15". Dependiendo del centro de gravedad de la laptop, puede funcionar con laptops de hasta 15.6" como las que se miestra en las fotos.',
+  //   estado: "Usada en muy bien estado.",
+  //   entrega: "Inmediata",
+  //   ml: ""
+  // },
 
 ]
 
